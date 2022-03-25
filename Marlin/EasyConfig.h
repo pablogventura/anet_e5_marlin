@@ -73,7 +73,7 @@
  * Values: ET_MODEL_ET4 ,ET_MODEL_ET4_PLUS, ET_MODEL_ET4X, ET_MODEL_ET4_PRO, ET_MODEL_ET5, ET_MODEL_ET5X, ET_MODEL_ET5_PRO
  */
 
-#define ET_MODEL                    ET_MODEL_ET4
+#define ET_MODEL                    ET_MODEL_ET5
 
 /**
  * Parameter: ET_BOARD
@@ -92,7 +92,7 @@
  * Values: ET_LV_NONE, ET_LV_BLTOUCH, ET_LV_MOUNTED_PROBE, ET_LV_FILM_STRIP
  */
 
-//#define ET_LEVELLING              ET_LV_BLTOUCH
+#define ET_LEVELLING              ET_LV_NONE
 
 /**
  * Parameter: ET_Z_HOMING_DIR
@@ -120,7 +120,7 @@
  * Values: ET_Z_ENDSTOP_POSTION_NONE, ET_Z_ENDSTOP_POSTION_TOP, ET_Z_ENDSTOP_POSTION_BOTTOM
  */
 
-//#define ET_Z_ENDSTOP_POSTION      ET_Z_ENDSTOP_POSTION_NONE
+#define ET_Z_ENDSTOP_POSTION      ET_Z_ENDSTOP_POSTION_BOTTOM
 
 /**
  * Parameter: ET_CUSTOM_MACHINE_NAME
@@ -128,7 +128,7 @@
  * Type: Optional 
  */
 
-#define ET_CUSTOM_MACHINE_NAME     "Anet ET4" 
+#define ET_CUSTOM_MACHINE_NAME     "Anet ET5" 
 
 // ----------------------------------------------
 // 3. Basic Post-installation configuration steps
