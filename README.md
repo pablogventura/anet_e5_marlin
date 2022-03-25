@@ -1,3 +1,12 @@
+Despues de cargar hay que inicializar la EEPROM con:
+* 1. EEPROM initialization -> https://marlinfw.org/docs/gcode/M502.html
+ * 
+ *         > M502
+ *         > M500
+Y calibrar la pantalla tactil con M995
+https://marlinfw.org/docs/gcode/M995.html
+
+
 # Marlin for ET4/5 series 3D printers
 ![counter](https://enoreg85bg22wzz.m.pipedream.net)
 
